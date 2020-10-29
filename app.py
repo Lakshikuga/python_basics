@@ -12,16 +12,16 @@ age = 20
 is_new = True
 
 #Receiving input
-#input("What is your name? ") #the space after the question mark separates the cursor from the question mark indicating that there may be an input to be read.
+input("What is your name? ") #the space after the question mark separates the cursor from the question mark indicating that there may be an input to be read.
 #the input() returns the value entered in the terminal window.
 
-#name = input("What is your name? ")
-#print("Hello " + name)
+name = input("What is your name? ")
+print("Hello " + name)
 
 #type conversion
-#birth_year = input("Enter your birth year: ") #the input() returns a value as string. if I enter 1994 as my input, the func returns as "1994"
-#age = 2020 - int(birth_year)
-#print(age)
+birth_year = input("Enter your birth year: ") #the input() returns a value as string. if I enter 1994 as my input, the func returns as "1994"
+age = 2020 - int(birth_year)
+print(age)
 #type conversion built in functions:
 #int() - to convert a value into an integer.
 #float() - to convert a value into a float.
@@ -30,10 +30,10 @@ is_new = True
 
 #exercise 2
 
-#num1 = input("First : ")
-#num2 = input("Second: ") #if u just give num1 + num2 then if num1=10 and num2=20; printing sum will give : "1020"
-#sum = float(num1) + float(num2)
-#print("Sum : " + str(sum)) #python cant concatenate a str with a float or int....."Sum : " + 19.95------x
+num1 = input("First : ")
+num2 = input("Second: ") #if u just give num1 + num2 then if num1=10 and num2=20; printing sum will give : "1020"
+sum = float(num1) + float(num2)
+print("Sum : " + str(sum)) #python cant concatenate a str with a float or int....."Sum : " + 19.95------x
 
 #all are objects in python. String is an object in python and this has many methods.
 #find('y') or find("for") - returns the index of the first occurence of the element, replace(), upper(), lower()
